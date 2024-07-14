@@ -1,153 +1,170 @@
+$icons_color: #e0e3e9;
+$bs_border_color: #f8f8f9;
+$menu_links_color: #4b5675;
+$menu_link_visited: #1b84ff;
+$sidebar_menu: #0d0e12;
+$menu_title_color: #f5f5f5;
+
 body {
-  background-color: #fcfcfc; }
-
+  background-color: #fcfcfc;
+}
 i {
-  font-size: 15px; }
-
+  font-size: 15px;
+}
 .navbar-icons-color {
-  color: #e0e3e9; }
-
+  color: $icons_color;
+}
 .bb-custom {
-  border-bottom: 3px solid #f8f8f9; }
-
+  border-bottom: 3px solid $bs_border_color;
+}
 .avatar-300 {
   cursor: pointer;
   width: 35px;
-  height: 35px; }
-
+  height: 35px;
+}
 .menu-link span {
-  color: #4b5675;
-  font-weight: 600; }
-
+  color: $menu_links_color;
+  font-weight: 600;
+}
 .menu-link-visited {
   background-color: transparent;
-  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.03); }
-
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.03);
+}
 .menu-link-visited span {
   font-weight: 600;
-  color: #1b84ff;
-  padding: 8px; }
-
+  color: $menu_link_visited;
+  padding: 8px;
+}
 .metronic-logo {
-  height: 30px; }
-
+  height: 30px;
+}
+// .offcanvas-sidebar-menu {
+//   background-color: black;
+//   height: 100vh;
+// }
 .dashboard-sidebar-menu {
-  background-color: #0d0e12; }
-
+  background-color: $sidebar_menu;
+}
 li.dropdown {
-  list-style: none; }
-
+  list-style: none;
+}
 li.dropdown a {
-  color: #f5f5f5; }
-
+  color: $menu_title_color;
+}
 li.dropdown a {
-  text-decoration: none; }
-
+  text-decoration: none;
+}
 ul.dropdown-menu li a {
   text-decoration: none;
-  color: #f5f5f5; }
-
+  color: $menu_title_color;
+}
 ul li ul.dropdown-menu {
-  min-width: 100%;
-  /* Set width of the dropdown */
+  min-width: 100%; /* Set width of the dropdown */
+  //   background: #f2f2f2;
   display: none;
   position: absolute;
   z-index: 999;
-  left: 0; }
-
+  left: 0;
+}
 ul li ul.dropdown-menu li {
-  display: block; }
-
+  display: block;
+}
 .offcanvas-start {
-  width: 215px !important; }
-
+  width: 215px !important;
+}
 .dp-menu-sidebar {
-  background-color: transparent; }
-
+  background-color: transparent;
+}
 .dp-menu-sidebar li:first-child a {
-  color: white; }
-
+  color: white;
+}
 .dp-menu-sidebar li {
   color: #9a9cae;
   color: white;
   padding: 0.65rem 0;
   outline: 0 !important;
-  cursor: pointer; }
-
+  cursor: pointer;
+}
 .dp-menu-sidebar li a {
   display: block;
-  border-radius: 10px !important; }
-
+  border-radius: 10px !important;
+}
 .sb-selected-li {
   background-color: #1c1c21;
   color: #f5f5f5;
-  transition: color 0.2s ease; }
-
+  transition: color 0.2s ease;
+}
 .dp-menu-sidebar li:first-child a .fa-circle {
   font-size: 4px;
   vertical-align: 5px;
-  padding-right: 10px; }
+  padding-right: 10px;
+}
 
 .dp-menu-sidebar li:not(:first-child) a .fa-circle {
   font-size: 4px;
   vertical-align: 5px;
   padding-right: 10px;
-  color: #464852; }
-
+  color: #464852;
+}
 .rotate-180 {
-  transform: rotate(180deg); }
-
+  transform: rotate(180deg);
+}
 .static-sidebar {
-  padding: 0; }
-
+  padding: 0;
+}
 .static-sidebar li:first-child {
   list-style-type: none;
   color: #f5f5f5;
-  border-bottom: 1px dashed #1f212a; }
-
+  // border-bottom: 1px solid $bs_border_color;
+  border-bottom: 1px dashed #1f212a;
+}
 .static-sidebar li {
   padding: 10px 10px 10px 20px;
-  color: #f5f5f5; }
-
+  color: #f5f5f5;
+}
 .drop-dif {
-  border: none !important; }
-
+  border: none !important;
+}
 .group-sd {
-  padding: 11px; }
-
+  padding: 11px;
+}
 .menu-head-second span {
-  color: #636674 !important; }
-
+  color: #636674 !important;
+}
 .static-menu-design li span {
-  color: #7f7f7f; }
-
+  color: #7f7f7f;
+}
 .docs-and-component {
   display: flex;
   justify-content: center;
-  align-items: center; }
-
+  align-items: center;
+}
 .docs-and-component span {
   color: #b5b5c3;
   background-color: rgba(63, 66, 84, 0.35);
   padding: 10px 30px 10px 30px;
-  border-radius: 10px; }
-
+  border-radius: 10px;
+}
 .docs-and-component {
-  text-decoration: none; }
-
+  text-decoration: none;
+}
 .static-menu-design i {
   padding-right: 8px;
   color: #7f7f7f;
-  font-size: 19px; }
-
+  font-size: 19px;
+}
+@media screen {
+}
 @media screen and (min-width: 992px) {
   .bb-custom {
-    border-bottom: none !important; }
-
+    border-bottom: none !important;
+  }
   .simple-square {
-    display: none; } }
+    display: none;
+  }
+}
 @media screen and (max-width: 768px) {
   .grow-icons-size {
-    flex-grow: 1; } }
-
-/*# sourceMappingURL=style.css.map */
+    flex-grow: 1;
+  }
+}
