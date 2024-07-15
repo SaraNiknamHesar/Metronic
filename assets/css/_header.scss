@@ -14,9 +14,9 @@ i {
 .navbar-icons-color {
   color: $icons_color;
 }
-.bb-custom {
-  border-bottom: 3px solid $bs_border_color;
-}
+// .bb-custom {
+//   border-bottom: 3px solid $bs_border_color;
+// }
 .avatar-300 {
   cursor: pointer;
   width: 35px;
@@ -162,6 +162,14 @@ ul li ul.dropdown-menu li {
   .simple-square {
     display: none;
   }
+}
+@media screen and (max-width: 992px) {
+  // .sara {
+  //   border-bottom: 1px solid #f1f1f4;
+  //   padding: 0;
+  //   margin: 0;
+  //   width: 100%;
+  // }
 }
 @media screen and (max-width: 768px) {
   .grow-icons-size {
