@@ -265,4 +265,53 @@ ul li ul.dropdown-menu li {
   background-color: #0d6efd !important;
   border-color: #0d6efd !important; }
 
+.app-creation-btn {
+  background: transparent !important;
+  border: none !important; }
+
+.app-creation-btn span {
+  font-size: 22px; }
+
+.modal-sec-rl {
+  border-bottom: 1px dotted #f1f1f4; }
+
+.stepper .line {
+  width: 2px;
+  background-color: lightgrey !important; }
+.stepper .lead {
+  font-size: 16px; }
+
+.modal-compass {
+  border: 1px solid #e9f3ff;
+  background-color: #e9f3ff;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px; }
+
+.modal-compass i {
+  color: #abd2ff;
+  font-size: 18px; }
+
+.modal-compass-1 {
+  border: 1px solid #ffeef3;
+  background-color: #ffeef3;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px; }
+
+.modal-compass-1 i {
+  color: #f8285a;
+  font-size: 18px; }
+
+.modal-compass-2 {
+  border: 1px solid #dfffea;
+  background-color: #dfffea;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px; }
+
+.modal-compass-2 i {
+  color: #a3eebc;
+  font-size: 18px; }
+
 /*# sourceMappingURL=style.css.map */
